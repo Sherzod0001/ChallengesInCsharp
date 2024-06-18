@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Metadata;
 
 // --------------------------------------------------------------------------------------
 
@@ -50,18 +51,37 @@ A rectangle:
 The sides a and b of the rectangle are given. find its surface area
 
 */
-Console.WriteLine("Enter first side of rectangle : ");
-string userInputsideA = Console.ReadLine();
-int sideA = Convert.ToInt32(userInputsideA);
+// Console.WriteLine("Enter first side of rectangle : ");
+// string userInputsideA = Console.ReadLine();
+// int sideA = Convert.ToInt32(userInputsideA);
 
-Console.WriteLine("Enter second side of rectangle : ");
-string userInputsideB = Console.ReadLine();
-int sideB = Convert.ToInt32(userInputsideB);
+// Console.WriteLine("Enter second side of rectangle : ");
+// string userInputsideB = Console.ReadLine();
+// int sideB = Convert.ToInt32(userInputsideB);
 
-Console.WriteLine($"Result : {GetSurfaceRectangle(sideA,sideB)}");
+// Console.WriteLine($"Result : {GetSurfaceRectangle(sideA,sideB)}");
 
-static int GetSurfaceRectangle(int sideA,int sideB)
+// static int GetSurfaceRectangle(int sideA,int sideB)
+// {
+//     return sideA * sideB;
+// }
+
+// --------------------------------------------------------------------------------------
+
+/*
+Determine the length of the circle given its diameter d
+
+*/
+
+const double PI = 3.14;
+
+Console.WriteLine("Enter the diameter of circle");
+string userInputDiameter = Console.ReadLine();
+double diameter = Convert.ToDouble(userInputDiameter);
+
+Console.WriteLine($"result :{ GetLengthCircle(diameter)}");
+
+static double GetLengthCircle(double diameter)
 {
-    return sideA * sideB;
+    return PI * diameter;
 }
-
