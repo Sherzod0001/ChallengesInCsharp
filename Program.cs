@@ -73,15 +73,18 @@ Determine the length of the circle given its diameter d
 
 */
 
-const double PI = 3.14;
+// const double PI = 3.14;
 
-Console.WriteLine("Enter the diameter of circle");
-string userInputDiameter = Console.ReadLine();
-double diameter = Convert.ToDouble(userInputDiameter);
+// Console.WriteLine("Enter the diameter of circle");
+// string userInputDiameter = Console.ReadLine();
+// double diameter = Convert.ToDouble(userInputDiameter);
 
-Console.WriteLine($"result :{ GetLengthCircle(diameter)}");
+// Console.WriteLine($"result :{ GetLengthCircle(diameter)}");
 
-static double GetLengthCircle(double diameter)
-{
-    return PI * diameter;
-}
+// static double GetLengthCircle(double diameter)
+// {
+//     return PI * diameter;
+// }
+
+// --------------------------------------------------------------------------------------
+
