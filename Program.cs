@@ -21,3 +21,22 @@ It will be necessary to calculate the sum of integers A and B.
 // }
 
 // --------------------------------------------------------------------------------------
+
+/*
+A rectangle:
+You are given the sides a and b of a rectangle, 
+you need to find its area and perimeter and check the following condition.
+*/
+
+string userInputsideA = Console.ReadLine();
+int sideA = Convert.ToInt32(userInputsideA);
+
+string userInputsideB = Console.ReadLine();
+int sideB = Convert.ToInt32(userInputsideB);
+
+Console.WriteLine($"Result : {GetParameterRectangle(sideA,sideB)}");
+
+static int GetParameterRectangle(int sideA,int sideB)
+{
+    return sideA * sideB;
+}
