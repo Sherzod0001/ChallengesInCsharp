@@ -27,10 +27,11 @@ A rectangle:
 You are given the sides a and b of a rectangle, 
 you need to find its area and perimeter and check the following condition.
 */
-
+Console.WriteLine("Enter first side of rectangle : ");
 string userInputsideA = Console.ReadLine();
 int sideA = Convert.ToInt32(userInputsideA);
 
+Console.WriteLine("Enter second side of rectangle : ");
 string userInputsideB = Console.ReadLine();
 int sideB = Convert.ToInt32(userInputsideB);
 
