@@ -153,22 +153,22 @@ The sides of a parallelepiped are a, b, c, given.
 Check and determine the radius of the circle
 */
 
-const double PI = 3.14;
+// const double PI = 3.14;
 
-Console.WriteLine("enter the radius of the circle");
-string userInput = Console.ReadLine();
-double radius = Convert.ToDouble(userInput);
+// Console.WriteLine("enter the radius of the circle");
+// string userInput = Console.ReadLine();
+// double radius = Convert.ToDouble(userInput);
 
-Console.WriteLine($"the Length of the Circle {GetLengthCircle(radius)}");
-Console.WriteLine($"the surface of the Circle {GetSurfaceCircle(radius)}");
+// Console.WriteLine($"the Length of the Circle {GetLengthCircle(radius)}");
+// Console.WriteLine($"the surface of the Circle {GetSurfaceCircle(radius)}");
 
-static double GetLengthCircle(double radius)
+// static double GetLengthCircle(double radius)
 
-{
-    return 2*PI*radius;
-}
+// {
+//     return 2*PI*radius;
+// }
 
-static double GetSurfaceCircle(double radius)
-{
-    return PI*(radius*radius);
-}
+// static double GetSurfaceCircle(double radius)
+// {
+//     return PI*(radius*radius);
+// }
