@@ -186,7 +186,7 @@ Console.WriteLine("Enter the second number : ");
 string userInputTwo = Console.ReadLine();
 double secondNumber = Convert.ToDouble(userInputTwo);
 
-Console.WriteLine($"the arithmetic mean of given numbers A and B : {GetArithmeticMean(firstNumber,secondNumber)}");
+Console.WriteLine($"the arithmetic mean of given numbers {firstNumber} and {secondNumber} : {GetArithmeticMean(firstNumber,secondNumber)}");
 
 static double GetArithmeticMean(double firstNumber,double secondNumber)
 {
