@@ -110,3 +110,36 @@ Find the volume and total surface area of ​​a cube given side a
 // {
 //     return 6 * (sideA * sideA);
 // }
+
+/*
+
+The sides of a parallelepiped are a, b, c, given.
+ Determine its volume and total surface area
+ 
+*/
+
+Console.WriteLine("Enter the first roof of the parallelepiped: ");
+string userInputParalOne = Console.ReadLine();
+int sideParalOne = Convert.ToInt32(userInputParalOne);
+
+Console.WriteLine("Enter the second roof of the parallelepiped: ");
+string userInputParalTwo = Console.ReadLine();
+int sideParalTwo = Convert.ToInt32(userInputParalTwo);
+
+Console.WriteLine("Enter the tree roof of the parallelepiped: ");
+string userInputParalThree = Console.ReadLine();
+int sideParalThree = Convert.ToInt32(userInputParalThree);
+
+Console.WriteLine($"Volume parallelepipe: {GetVolumeParallelepiped(sideParalOne, sideParalTwo, sideParalThree)}");
+Console.WriteLine($"Full surface parallelepipe: {GetFullSurfaceParallelepiped(sideParalOne, sideParalTwo, sideParalThree)}");
+
+
+static int GetVolumeParallelepiped(int sideParalOne, int sideParalTwo, int sideParalThree)
+{
+    return sideParalOne * sideParalTwo * sideParalThree;
+}
+
+static int GetFullSurfaceParallelepiped(int sideParalOne, int sideParalTwo, int sideParalThree) 
+{
+    return 2 * (sideParalOne * sideParalTwo + sideParalTwo * sideParalThree + sideParalOne * sideParalThree); 
+}
