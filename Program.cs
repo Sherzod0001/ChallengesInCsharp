@@ -172,3 +172,23 @@ Check and determine the radius of the circle
 // {
 //     return PI*(radius*radius);
 // }
+
+// --------------------------------------------------------------------------------------
+
+/*
+Determine the arithmetic mean of given numbers A and B
+*/
+Console.WriteLine("Enter the first number : ");
+string userInputOne = Console.ReadLine();
+double firstNumber = Convert.ToDouble(userInputOne);
+
+Console.WriteLine("Enter the second number : ");
+string userInputTwo = Console.ReadLine();
+double secondNumber = Convert.ToDouble(userInputTwo);
+
+Console.WriteLine($"the arithmetic mean of given numbers A and B : {GetArithmeticMean(firstNumber,secondNumber)}");
+
+static double GetArithmeticMean(double firstNumber,double secondNumber)
+{
+    return (firstNumber+secondNumber)/2;
+}
