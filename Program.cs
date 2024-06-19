@@ -178,17 +178,21 @@ Check and determine the radius of the circle
 /*
 Determine the arithmetic mean of given numbers A and B
 */
-Console.WriteLine("Enter the first number : ");
-string userInputOne = Console.ReadLine();
-double firstNumber = Convert.ToDouble(userInputOne);
 
-Console.WriteLine("Enter the second number : ");
-string userInputTwo = Console.ReadLine();
-double secondNumber = Convert.ToDouble(userInputTwo);
+// Console.WriteLine("Enter the first number : ");
+// string userInputOne = Console.ReadLine();
+// double firstNumber = Convert.ToDouble(userInputOne);
 
-Console.WriteLine($"the arithmetic mean of given numbers {firstNumber} and {secondNumber} : {GetArithmeticMean(firstNumber,secondNumber)}");
+// Console.WriteLine("Enter the second number : ");
+// string userInputTwo = Console.ReadLine();
+// double secondNumber = Convert.ToDouble(userInputTwo);
 
-static double GetArithmeticMean(double firstNumber,double secondNumber)
-{
-    return (firstNumber+secondNumber)/2;
-}
+// Console.WriteLine($"the arithmetic mean of given numbers {firstNumber} and {secondNumber} : {GetArithmeticMean(firstNumber,secondNumber)}");
+
+// static double GetArithmeticMean(double firstNumber,double secondNumber)
+// {
+//     return (firstNumber+secondNumber)/2;
+// }
+
+// --------------------------------------------------------------------------------------
+
