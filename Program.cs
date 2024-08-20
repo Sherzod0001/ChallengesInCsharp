@@ -334,7 +334,6 @@ static double GetPerimeter(double hypotenuse, double firstNumber, double secondN
     double perimeter = firstNumber + secondNumber + hypotenuse;
     return perimeter;
 }
- // yangi code qo'shildi
- // yangi masala qo'shildi 
+// code yangilandi 
 
 
