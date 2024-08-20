@@ -217,7 +217,7 @@ Find the geometric mean of 2 non-negative numbers
 //     {
 //         double number = firstNumber * secondNumber;
 //         geometricMean = Math.Sqrt(number);
-        
+
 //     }
 //     else
 //     {
@@ -316,24 +316,25 @@ string userInputTwo = Console.ReadLine();
 double secondNumber = Convert.ToDouble(userInputTwo);
 
 
-double hypotenuseForPerimeter = GetHypotenuse(firstNumber,secondNumber);
-double perimeter = GetPerimeter(firstNumber,secondNumber,hypotenuseForPerimeter);
+double hypotenuseForPerimeter = GetHypotenuse(firstNumber, secondNumber);
+double perimeter = GetPerimeter(firstNumber, secondNumber, hypotenuseForPerimeter);
 
 Console.WriteLine($"Hypotenuse : {hypotenuseForPerimeter}");
 Console.WriteLine($"Perimeter : {perimeter}");
 
-static double GetHypotenuse(double firstNumber,double secondNumber)
-{   
-    double hypotenuse = 0 ;
-    hypotenuse = Math.Sqrt((firstNumber*firstNumber)+(secondNumber*secondNumber));
+static double GetHypotenuse(double firstNumber, double secondNumber)
+{
+    double hypotenuse = 0;
+    hypotenuse = Math.Sqrt((firstNumber * firstNumber) + (secondNumber * secondNumber));
     return hypotenuse;
-    
+
 }
-static double GetPerimeter(double hypotenuse,double firstNumber,double secondNumber)
+static double GetPerimeter(double hypotenuse, double firstNumber, double secondNumber)
 {
     double perimeter = firstNumber + secondNumber + hypotenuse;
     return perimeter;
 }
-// code qo'shildi !!! 
+ // yangi code qo'shildi
+ // yangi masala qo'shildi 
 
 
