@@ -336,4 +336,9 @@ static double GetPerimeter(double hypotenuse, double firstNumber, double secondN
 }
 // new challenge 
 
+static void Method()
+{
+    System.Console.WriteLine("hello lazy programmer");
+}
+
 
