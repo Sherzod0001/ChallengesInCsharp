@@ -337,22 +337,22 @@ Find its hypotenuse and perimeter of a right triangle given legs a and b
 
 // --------------------------------------------------------------------------------------
 
-Console.Write("3 xonali son kiriting :");
-int userInput = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine(userInput);
+// Console.Write("3 xonali son kiriting :");
+// int userInput = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine(userInput);
 
 
-int firstNumber = userInput /100;
-int secondNumber = (userInput / 10)%10;
-int thirdNumber = ((userInput%100) %10);
+// int firstNumber = userInput /100;
+// int secondNumber = (userInput / 10)%10;
+// int thirdNumber = ((userInput%100) %10);
 
-if(firstNumber < secondNumber && secondNumber < thirdNumber)
-{
-    Console.WriteLine("True");
-}else
-{
-    Console.WriteLine("False");
-}
+// if(firstNumber < secondNumber && secondNumber < thirdNumber)
+// {
+//     Console.WriteLine("True");
+// }else
+// {
+//     Console.WriteLine("False");
+// }
 
 // --------------------------------------------------------------------------------------
 
