@@ -307,33 +307,34 @@ Find the geometric mean of 2 non-negative numbers
 Find its hypotenuse and perimeter of a right triangle given legs a and b
 */
 
-Console.WriteLine("Enter first number");
-string userInputOne = Console.ReadLine();
-double firstNumber = Convert.ToDouble(userInputOne);
+// Console.WriteLine("Enter first number");
+// string userInputOne = Console.ReadLine();
+// double firstNumber = Convert.ToDouble(userInputOne);
 
-Console.WriteLine("Enter second number");
-string userInputTwo = Console.ReadLine();
-double secondNumber = Convert.ToDouble(userInputTwo);
+// Console.WriteLine("Enter second number");
+// string userInputTwo = Console.ReadLine();
+// double secondNumber = Convert.ToDouble(userInputTwo);
 
 
-double hypotenuseForPerimeter = GetHypotenuse(firstNumber, secondNumber);
-double perimeter = GetPerimeter(firstNumber, secondNumber, hypotenuseForPerimeter);
+// double hypotenuseForPerimeter = GetHypotenuse(firstNumber, secondNumber);
+// double perimeter = GetPerimeter(firstNumber, secondNumber, hypotenuseForPerimeter);
 
-Console.WriteLine($"Hypotenuse : {hypotenuseForPerimeter}");
-Console.WriteLine($"Perimeter : {perimeter}");
+// Console.WriteLine($"Hypotenuse : {hypotenuseForPerimeter}");
+// Console.WriteLine($"Perimeter : {perimeter}");
 
-static double GetHypotenuse(double firstNumber, double secondNumber)
-{
-    double hypotenuse = 0;
-    hypotenuse = Math.Sqrt((firstNumber * firstNumber) + (secondNumber * secondNumber));
-    return hypotenuse;
+// static double GetHypotenuse(double firstNumber, double secondNumber)
+// {
+//     double hypotenuse = 0;
+//     hypotenuse = Math.Sqrt((firstNumber * firstNumber) + (secondNumber * secondNumber));
+//     return hypotenuse;
 
-}
-static double GetPerimeter(double hypotenuse, double firstNumber, double secondNumber)
-{
-    double perimeter = firstNumber + secondNumber + hypotenuse;
-    return perimeter;
-}
-// add new challenge 
+// }
+// static double GetPerimeter(double hypotenuse, double firstNumber, double secondNumber)
+// {
+//     double perimeter = firstNumber + secondNumber + hypotenuse;
+//     return perimeter;
+// }
+
+
 
 
