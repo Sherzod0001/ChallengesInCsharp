@@ -356,3 +356,4 @@ Find its hypotenuse and perimeter of a right triangle given legs a and b
 
 // --------------------------------------------------------------------------------------
 
+// musbat son berilgan, jumlani rostlikka tekshir, "berilgan son ikki xonali juft son" 
