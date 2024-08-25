@@ -357,3 +357,15 @@ Find its hypotenuse and perimeter of a right triangle given legs a and b
 // --------------------------------------------------------------------------------------
 
 // musbat son berilgan, jumlani rostlikka tekshir, "berilgan son ikki xonali juft son" 
+while(true)
+{
+Console.Write("Musbat son kiriting:");
+int userInput = Convert.ToInt32(Console.ReadLine());
+if(userInput % 2==0 && userInput / 10 !=0)
+{
+    System.Console.WriteLine("Kiritilgan son juft va 2 xonali");
+}else
+{
+    System.Console.WriteLine("Kiritilgan son juft yoki 2 xonali emas");
+}
+}
